@@ -21,19 +21,19 @@ function clickAction1(){
             //roundup.innerText="1ත් 5ත් අතර අංකයක් අනුමාන කරන්න , තව try "+(i-1)+" තියෙනවා";
             //alert("හේයි මීට වැඩිය හොදා..යී, මීට වඩා අඩු එකක් දැම්ම නම් ");
             // document.getElementById("myImage").src = "img/yes.jpeg";
-            lblH2.innerText = "හේ...............යි මීට වැඩිය හොදා..යී, මීට වඩා වැඩි එකක් දැම්ම නම් උත්තරය "+num;
+            lblH2.innerText = "හේ...............යි මීට වැඩිය හොදා..යී, මීට වඩා වැඩි එකක් දැම්ම නම්";
             // img11.innerHTML=img/images.jpg;
         }else if(num<inputText.value){
             console.log("Too High");
             //roundup.innerText="1ත් 5ත් අතර අංකයක් අනුමාන කරන්න , තව try "+(i-1)+" තියෙනවා";
             //alert("හේයි මීට වැඩිය හොදා..යී, මීට වඩා වැඩි එකක් දැම්ම නම් ");
-            lblH2.innerText = "හේ...............යි මීට වැඩිය හොදා..යී, මීට වඩා අඩු එකක් දැම්ම නම්, උත්තරය "+num;
+            lblH2.innerText = "හේ...............යි මීට වැඩිය හොදා..යී, මීට වඩා අඩු එකක් දැම්ම නම්";
             // img11.innerHTML=img/images.jpg;
         }else{
             console.log("‍යෙස් whotto යෙස්..! හාමුදුරුවෝ සතුටින්");
             //alert("යෙස් whotto යෙස්");
             //roundup.innerText="1ත් 5ත් අතර අංකයක් අනුමාන කරන්න , තව try "+(i-1)+" තියෙනවා";
-            lblH2.innerText = "යෙස් who@*# යෙස්";
+            lblH2.innerText = "යෙස් whotto යෙස්..! හාමුදුරුවෝ සතුටින්";
             // img11.innerHTML=img/yes.jpeg;
         }
     }
